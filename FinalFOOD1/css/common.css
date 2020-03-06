@@ -1,0 +1,107 @@
+.menu1{
+    padding:2px;
+    position: absolute;
+    margin: 5px;
+    background:#333;
+    overflow: hidden;
+    width: 98%;
+} 
+
+.menu1 a{
+    display:inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 16px 16px;
+    color: white;
+    border-radius:5px;
+}       
+
+.menu1 a:hover{
+    background:orangered;
+    color: white;
+}
+.search{
+position: absolute;
+right: 10px;
+padding: 5;
+}
+.search input{
+    height: 50px;
+    background:#333;
+    border: solid 1px;
+    padding: 15px;
+}
+
+#mySidenav a{
+    position: absolute;
+    left:-25px;
+    transition: 0.3s;
+    padding: 15px;
+    width:120px;
+    text-decoration:none;
+    text-align: right;
+    font-size:20px;
+    color:white;
+    border-radius:0 5px 5px 0; 
+}
+#mySidenav a:hover{
+    left:13px;
+    width: 10%;
+}
+
+#tradi{
+    top:45px;
+    background-color: #4CAF50;
+}
+
+#indian{
+    top:105px;
+    background-color:#2196f3;
+}
+
+#italian{
+    top:165px;
+    background-color: #f44336;
+}
+
+#thai{
+    top:225px;
+    background-color: #555;
+}        
+{
+    background-image:url(images/food.jpg);
+    background-size:100% 100%;
+    background-repeat:repeat;} 
+
+    .foot{
+        text-align:center;
+        padding:20px;
+        background:url("../images/thai.jpg") no-repeat;
+        opacity: 0.8;
+        background-size: 100%;
+        color:black;
+        position:absolute;
+        top: 2047px;
+        width:95.5%;
+        margin: 5px;
+        }
+    
+        .footlogo{
+        position:absolute;
+        bottom:30px;
+        left:15px;
+        }
+    
+        .footlogo img{
+        width: 10;
+        height:10;
+        }
+    
+        .foot a{
+        color:yellow;
+        font-weight: 900;
+        padding:8px 8px;
+        }
+    
+    @media only screen and (max-width:480px){
+    }

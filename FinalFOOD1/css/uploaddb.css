@@ -1,0 +1,30 @@
+body {
+    background:url("images/thai.jpg");
+	
+}
+#box{
+    width: 300px;
+    border: 5px ;
+    padding: 65px;
+    margin: 15px;
+	background-color:rgb(68, 157, 230);
+	font-size: 20px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	color:white;
+	border-radius: 10px;
+	border-style: none;
+	
+}
+#topic{
+	text-align:center;
+	font-size:60px;
+	color:rgb(218, 192, 163);
+}
+form  { display: table;      }
+p     { display: table-row;  }
+label { display: table-cell; }
+input { display: table-cell;
+		padding:10px;
+		}

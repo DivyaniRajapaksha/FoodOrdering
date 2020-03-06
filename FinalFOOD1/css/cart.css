@@ -1,0 +1,426 @@
+    .menu1{
+        padding:2px;
+        position: absolute;
+        margin: 8px;
+        background:#333;
+        overflow: hidden;
+        width: 98%;
+    } 
+
+    .menu1 a{
+        display:inline-block;
+        text-decoration: none;
+        font-size: 20px;
+        padding: 16px 16px;
+        color: black;
+        border-radius:5px;
+    }       
+    
+    .menu1 a:hover{
+        background:orangered;
+        color: white;
+    }
+
+    .search{
+    position: absolute;
+    right: 5px;
+    padding: 8px;
+    }
+    
+    .search input{
+        height: 50px;
+        background:#333;
+        border: solid 1px;
+        padding: 15px;
+    }
+    
+    form{
+        font-size:18px;
+        float:center;
+        margin: 5px;
+    }
+
+    {
+        width:450px;
+        height:20px;
+    }
+
+    #mySidenav a{
+        position: absolute;
+        left:-25px;
+        transition: 0.3s;
+        padding: 15px;
+        width:120px;
+        text-decoration:none;
+        text-align: right;
+        font-size:20px;
+        color:white;
+        border-radius:0 5px 5px 0; 
+    }
+    #mySidenav a:hover{
+        left:13px;
+        width: 10%;
+    }
+    
+    #tradi{
+        top:45px;
+        background-color: #4CAF50;
+    }
+
+    #indian{
+        top:105px;
+        background-color:#2196f3;
+    }
+
+    #italian{
+        top:165px;
+        background-color: #f44336;
+    }
+
+    #thai{
+        top:225px;
+        background-color: #555;
+    }    
+    {
+        background-image:url(images/food.jpg);
+        background-size:100% 100%;
+        background-repeat:repeat;}     
+
+    fieldset{
+        margin: 7px;
+    }
+
+    legend{
+        font-style:normal;
+        font-size:2.5em;
+        color:black;
+    }
+
+    .foot{
+    text-align:center;
+    padding:20px;
+    background:url("../images/thai.jpg")no-repeat;
+    opacity: 0.8;
+    background-size: 100%;
+    color:black;
+    position:absolute;
+    top: 1335px;
+    width:95.5%;
+    margin: 5px;
+    }
+
+    .footlogo{
+    position:absolute;
+    bottom:30px;
+    left:15px;
+    }
+
+    .footlogo img{
+    width: 50;
+    height:50;
+    }
+
+    .foot a{
+    color:yellow;
+    font-weight: 900;
+    padding:8px 8px;
+    }
+
+    #op{
+        width:25%;
+        height:35px;
+        background:rgb(184, 184, 184);
+        border-style: none;
+        float:center;
+        font-size:16px;
+    }
+    #op1{
+        width:66px;
+        height:30px;
+        background:rgb(184, 184, 184);
+        font-size:16px;
+        border-style: none;
+    }
+    
+    textarea{
+        background:rgb(184, 184, 184);
+    }
+
+    input{
+        width:465px;
+        height:30px;
+        background:rgb(184, 184, 184);
+        border-style: none;
+    }
+    .box{
+        width:550px;
+        height:30px;
+        background:rgb(184, 184, 184);
+        border-style: none;
+    }
+    #message{
+        width:775px;
+        height:170px;
+        overflow:"-yscroll";
+        font-size:16px;
+        background-color:white;
+    }
+
+    #sub1{
+        width:150px;
+        height:50px;
+        background-color:#333;
+        border-radius:12px;
+        color:white;
+        float:right;
+    }
+    .container-fluid{
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height:200px;
+        background-color: black;
+        color: white;
+        text-align: center;
+     }
+     a{
+         color:orange;
+         font-size:16px;}
+         .container .btn:hover{
+         background-color: #333;
+
+     }
+     
+     #btn {
+         position: absolute;
+         top: 38%;
+         left: 95%;
+         transform: translate(-50%, -50%);
+         -ms-transform: translate(-50%, -50%);
+         background-color: #555;
+         color: white;
+         font-size: 16px;
+         padding: 12px 24px;
+         border: none;
+         cursor: pointer;
+         border-radius: 5px;
+         text-align: center;
+     }
+     #btn:hover {
+         background-color: black;
+     }
+     .modal {
+         display: none; 
+         position: fixed; 
+         z-index: 1; 
+         padding-top: 70px; 
+         left: 0;
+         top: 0;
+         width: 90%; 
+         padding-left:450px;
+         height: 90%; 
+         overflow:auto; 
+         background-color: rgb(0,0,0);
+         background-color: rgba(0,0,0,0.1);
+     
+     }
+     .modal-content {
+         background:url("../images/back.jpg");
+         opacity: 0.9;
+         border: none;
+         margin: auto;
+         padding: 20px;
+         width: 50%;	
+         height: 50%;
+     }
+     
+     .close {
+         color:#aaaaaa;
+         float: right;
+         font-size: 50px;
+         font-weight: bold;
+     }
+     .close:hover,
+     .close:focus {
+         color: black;
+         text-decoration: none;
+         cursor: pointer;
+     }
+     .persona{
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         width: 30%;
+         }
+    
+    .mid{
+         border-style: outset;
+         }
+     
+    #mymdl input[type=text], #mymdl input[type=password] {
+         width: 45%;
+         padding: 12px 20px;
+         margin: 8px 0;
+         display: inline-block;
+         border: 1px solid #ccc;
+         box-sizing: border-box;
+     }	
+     button {
+         background-color:gray;
+         color: white;
+         padding: 10px 20px;
+         margin: 8px 0;
+         border: none;
+         cursor: pointer;
+         width: 45%;
+         float:center;    
+     }
+     span.psw {
+         float: right;
+         padding-top: 16px;
+     }
+     span.signup {
+         float: left;
+         padding-top: 16px;
+     }
+
+     .link{
+         color:blue;
+         }
+     .b12{
+         background-color:gray;
+         color: white;
+         padding: 14px 20px;
+         margin: 8px 0;
+         border: none;
+         cursor: pointer;
+         width: 50%;
+         float:center;
+         position :absolute;
+         top:1150px;
+         width:20%;
+         left:53.5%;
+     }
+
+        table, th, td {
+        background: #888;
+        border-collapse: collapse;
+        font-size: 20px;
+        }
+        th, td {
+            padding: 5px;
+            text-align: left;    
+        } 
+        .del{
+            padding:0.5px;
+        }
+
+
+        .pay{
+            padding:15px;
+        
+        } 
+        .pay {
+            position: relative;
+            left: 360px;
+            background:#888;
+            width: 20%;
+            font-size: 15px;
+            padding: 6px;
+            border: none;
+        }
+        .card{
+            position: relative;
+            left: 325px; 
+        }
+        #h1{
+            height:300px;
+            opacity:0.8;
+            filter:alpha(opacity=50);	
+        }
+
+        .header #btn1 {
+            position: absolute;
+            top: 47%;
+            left: 93%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            background-color: #555;
+            color: white;
+            font-size: 16px;
+            padding: 9px 69px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            text-align: left;
+        }
+    
+        .header #btn1:hover {
+            background-color: black;
+        }
+        #checkout{
+           float:right;
+            color:white;
+            background-color: #555;
+            border:none;
+            padding:9px 50px;
+        }
+    
+    
+        table,th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+        th, td {
+        padding: 10px;
+    }
+    
+    
+    .modal1 {
+        display: none; 
+        position: fixed; 
+        z-index: 5;
+        padding-top:150px;
+         padding-bottom:100px;
+        /* padding-left:450px; */
+        /* padding-right:40px; */
+        left: 50%;
+        top: 17%;
+        width:50%;
+        height:50%;
+        overflow:auto;
+        background-color: rgb(0,0,0); 
+        background-color: rgba(0,0,0,0.4);
+       
+        
+        
+    }
+    
+    
+    .modal1-content {
+        background-color: #fefefe;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%;
+        
+       
+    }
+    
+    
+    .closepop {
+        color: #333;
+        float: right;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+    .closepop:hover,
+    .closepop:focus {
+        color: #333;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+@media only screen and (max-width:480px){
+}

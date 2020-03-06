@@ -1,0 +1,237 @@
+ .menu1{
+        padding:2px;
+        position: absolute;
+        margin: 8px;
+        background:#333;
+        overflow: hidden;
+        width: 98%;
+    } 
+
+    .menu1 a{
+        display:inline-block;
+        text-decoration: none;
+        font-size: 20px;
+        padding: 16px 16px;
+        color: white;
+        border-radius:5px;
+    }       
+    
+    .menu1 a:hover{
+        background:orangered;
+        color: white;
+    }
+
+    .search{
+    position: absolute;
+    right: 5px;
+    padding: 8px;
+    top:46.25%; 
+    }
+    
+    .search input{
+        height: 23px;
+        background:#333;
+        border: solid white 1px;
+        padding: 15px;
+    }
+    
+    form{
+        font-size:18px;
+        float:center;
+        margin: 5px;
+    }
+
+    {
+        width:450px;
+        height:20px;
+    }
+
+    #mySidenav a{
+        position: absolute;
+        left:-25px;
+        transition: 0.3s;
+        padding: 15px;
+        width:120px;
+        text-decoration:none;
+        text-align: right;
+        font-size:20px;
+        color:white;
+        border-radius:0 5px 5px 0; 
+    }
+    #mySidenav a:hover{
+        left:13px;
+        width: 10%;
+    }
+    
+    #tradi{
+        top:45px;
+        background-color: #4CAF50;
+    }
+
+    #indian{
+        top:105px;
+        background-color:#2196f3;
+    }
+
+    #italian{
+        top:165px;
+        background-color: #f44336;
+    }
+
+    #thai{
+        top:225px;
+        background-color: #555;
+    }    
+    {
+        background-image:url(images/food.jpg);
+        background-size:100% 100%;
+        background-repeat:repeat;}     
+
+    fieldset{
+        margin: 7px;
+    }
+
+    legend{
+        font-style:normal;
+        font-size:2.5em;
+        color:black;
+    }
+
+
+
+body{
+    margin:0;
+
+	}
+
+ul{
+	list-style-type: none;
+    margin: 0;
+    padding:10px;
+    width: 25%;
+    background-color:#f1f1f1;
+    position: stiky;
+    height: 100%;
+    overflow: auto;
+	 font-size: 25px;}
+li a{
+    display: block;
+    padding:18px 16px;
+    text-decoration: none;
+    background-color: #180B4D;
+    color: white;
+	 font-size: 25px;
+	
+	}
+
+ th,table,td{
+            border: 2px solid black;
+            border-collapse: collapse;
+	    
+            }
+th,td {
+                padding: 5px;
+                text-align: left;    
+            } 
+
+li a:hover{
+    background-color: black;
+    color: white;
+}
+#admin[type=text] {
+  
+   position: absolute;
+   top: 70%;
+   left: 30%;
+  padding:20px 5px;
+  border: 1px solid #4CAF50;
+  font-size: 17px;
+  background-color:white;
+}
+
+
+table{
+	 position: absolute;
+   	top: 110%;
+	left: 30%;
+	width: 60%;
+   	}
+
+    .foot{
+    text-align:center;
+    padding:20px;
+    background:url("../images/thai.jpg")no-repeat;
+    opacity: 0.8;
+    background-size: 100%;
+    color:black;
+    position:absolute;
+    top: 1305px;
+    width:95.5%;
+    margin: 5px;
+    }
+
+    .footlogo{
+    position:absolute;
+    bottom:30px;
+    left:15px;
+    }
+
+    .footlogo img{
+    width: 50px;
+    height:50px;
+    }
+
+    .foot a{
+    color:yellow;
+    font-weight: 900;
+    padding:8px 8px;
+    }
+
+    #op{
+        width:25%;
+        height:35px;
+        background:rgb(184, 184, 184);
+        border-style: none;
+        float:center;
+        font-size:16px;
+    }
+    #op1{
+        width:66px;
+        height:30px;
+        background:rgb(184, 184, 184);
+        font-size:16px;
+        border-style: none;
+    }
+    
+    textarea{
+        background:rgb(184, 184, 184);
+    }
+
+    input{
+        width:465px;
+        height:30px;
+        background:rgb(184, 184, 184);
+        border-style: none;
+    }
+    .box{
+        width:550px;
+        height:30px;
+        background:rgb(184, 184, 184);
+        border-style: none;
+    }
+    #message{
+        width:775px;
+        height:170px;
+        overflow:"-yscroll";
+        font-size:16px;
+        background-color:white;
+    }
+
+    #sub1{
+        width:150px;
+        height:50px;
+        background-color:#333;
+        border-radius:12px;
+        color:white;
+        float:right;
+    }
